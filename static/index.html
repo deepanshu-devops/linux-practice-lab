@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linux Practice Lab</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <h1>Linux Practice Lab</h1>
+      <p>Run safe Linux commands inside the sandbox lab and complete guided exercises.</p>
+    </section>
+
+    <section class="panel">
+      <div class="terminal-card">
+        <h2>Terminal</h2>
+        <div id="output" class="output"></div>
+
+        <form id="command-form">
+          <label for="command">Command</label>
+          <input id="command" name="command" placeholder="e.g. ls" autocomplete="off" />
+          <button type="submit">Run</button>
+        </form>
+      </div>
+
+      <div class="exercise-card">
+        <h2>Exercises</h2>
+        <div id="exercises"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

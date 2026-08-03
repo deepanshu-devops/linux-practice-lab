@@ -1,0 +1,2 @@
+Welcome to the Linux practice lab!
+Use the browser terminal to complete exercises and explore safe commands.
