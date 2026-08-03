@@ -13,4 +13,4 @@ jobs:
         run: |
           curl -fsS -o /dev/null \
             -A "keep-alive (github-actions)" \
-            "${{ vars.RENDER_URL || 'https://linux-practice-lab.onrender.com/' }}"
+            "${{ vars.RENDER_URL || 'https://linux-practice-lab.onrender.com/health' }}"
